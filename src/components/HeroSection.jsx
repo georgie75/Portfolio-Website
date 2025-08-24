@@ -12,7 +12,7 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I'm a Web & Mobile App App Developer who’s always learning and leveling up. I love exploring new technologies and take pride in making my work the best it can be ^_^
+            I'm a Web & Mobile App Developer who’s always learning and leveling up. I love exploring new technologies and take pride in making my work the best it can be ^_^
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
