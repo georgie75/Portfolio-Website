@@ -69,7 +69,7 @@
 
     --card: 0 0% 100%;
 
-    --primary: 313 68% 25%;
+    --primary: 278 67% 35%;
     --primary-foreground: 210 40% 98%;
 
     --border: 214 32% 91%;
@@ -164,4 +164,13 @@
   margin: 0 auto;
   padding: 0;
   text-align: center;
+}
+
+.snap-container {
+  scroll-snap-type: y mandatory;
+  scroll-padding-top: 6rem; /* navbar height */
+}
+.snap-section {
+  scroll-snap-align: start;
+  scroll-margin-top: 6rem;
 }

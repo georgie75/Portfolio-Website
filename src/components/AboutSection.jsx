@@ -2,7 +2,7 @@ import { Database, Code, Smartphone } from "lucide-react";
 
 export const AboutSection = () => {
   return (
-    <section id="about" className="py-24 px-24 relative">
+    <section id="about" className="py-24 px-24 relative  ">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
           About <span className="text-primary">Me</span>
@@ -29,7 +29,7 @@ export const AboutSection = () => {
               Get In Touch
             </a>
 
-            <a href="" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+            <a href="#" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
               Download CV
             </a>
           </div>
@@ -37,7 +37,7 @@ export const AboutSection = () => {
 
         <div className="grid grid-cols-1 gap-6">
           <div className="gradient-border p-6 card-hover">
-            <div className="flex items-start gap-4">
+            <div className="flex items-start gap-4 md:flex-row flex-col">
               <div className="p-3 rounded-full bg-primary/10">
                 <Code className="h-6 w-6 text-primary" />
               </div>
@@ -48,7 +48,7 @@ export const AboutSection = () => {
             </div>
           </div>
           <div className="gradient-border p-6 card-hover">
-            <div className="flex items-start gap-4">
+            <div className="flex items-start gap-4 md:flex-row flex-col">
               <div className="p-3 rounded-full bg-primary/10">
                 <Smartphone className="h-6 w-6 text-primary" />
               </div>
@@ -59,7 +59,7 @@ export const AboutSection = () => {
             </div>
           </div>
           <div className="gradient-border p-6 card-hover">
-            <div className="flex items-start gap-4">
+            <div className="flex items-start gap-4 md:flex-row flex-col">
               <div className="p-3 rounded-full bg-primary/10">
                 <Database className="h-6 w-6 text-primary" />
               </div>
